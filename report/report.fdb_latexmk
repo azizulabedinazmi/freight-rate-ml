@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1790869992.00536 "d:/Spotter ML Engineer Test/report/report.tex" "report.pdf" "report" 1790869993.71137 0
+["pdflatex"] 1790870604.96814 "d:/Spotter ML Engineer Test/report/report.tex" "report.pdf" "report" 1790870606.65731 0
   "CVFoldRows.tex" 1790869962 108 8528a959bd0a08db2f67356ceb826b8c ""
   "CVMeanRows.tex" 1790869962 231 ca0848722992bcbea5fd8e2d13475dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1757585607 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -233,7 +233,7 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1757593241 5574045 22848c10ad8b56b5f83684fbec0ec0d7 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1757593352 3605802 0f2a0add3ced00fc8583e7b57035af99 ""
   "c:/texlive/2025/texmf.cnf" 1757593221 713 e69b156964470283e0530f5060668171 ""
-  "d:/Spotter ML Engineer Test/report/report.tex" 1790869991 18453 88a1e6dfa1897aec6d44ddd8092909a2 ""
+  "d:/Spotter ML Engineer Test/report/report.tex" 1790870604 18467 0dff4acff09b9d048ea4b08f7dbe9bdc ""
   "figures/candidate_december.png" 1790869954 96707 6ba5b322efb4ba09303556a29ce6e422 ""
   "figures/cv_mae.pdf" 1790869959 17525 fbfc201ec617cdabd901b8077ba346a7 ""
   "figures/eda_loglog.pdf" 1790869959 46355 c7338d8ea8baf37481c579e6df6eb851 ""
@@ -243,9 +243,9 @@
   "figures/market_index.pdf" 1790869959 18730 fdd0f179e90c370040e58582b9429a0d ""
   "figures/pred_vs_actual.pdf" 1790869961 13555 f905f688beb60b07628e4f06f4b0e2e6 ""
   "generated.tex" 1790869962 1448 a33bdd614b3bc1bf3840849f143c7f94 ""
-  "report.aux" 1790869993 5024 6a71512be73e955b7516c99eba5c6ae6 "pdflatex"
-  "report.out" 1790869993 2715 71c9eb325486199cf7e3207c3f66a197 "pdflatex"
-  "report.tex" 1790869991 18453 88a1e6dfa1897aec6d44ddd8092909a2 ""
+  "report.aux" 1790870606 5024 bb11eab3154ad2007e05e5d3b1d7d8ad "pdflatex"
+  "report.out" 1790870606 2715 71c9eb325486199cf7e3207c3f66a197 "pdflatex"
+  "report.tex" 1790870604 18467 0dff4acff09b9d048ea4b08f7dbe9bdc ""
   (generated)
   "report.aux"
   "report.log"

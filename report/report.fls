@@ -377,6 +377,7 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -417,7 +418,6 @@ INPUT ./figures/market_index.pdf
 INPUT ./figures/market_index.pdf
 INPUT ./figures/market_index.pdf
 INPUT ./figures/market_index.pdf
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchr8t.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/bitstrea/charter/bchb8t.tfm
 INPUT ./figures/label_spikes.pdf
 INPUT ./figures/label_spikes.pdf

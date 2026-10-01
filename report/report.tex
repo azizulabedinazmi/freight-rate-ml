@@ -83,6 +83,7 @@
     {\sans\small Machine Learning Engineer assessment \quad$\cdot$\quad \reportauthor \quad$\cdot$\quad \texttt{\repourl}};
 \end{tikzpicture}
 \par\vspace{-\parskip}
+\vspace{-25pt}
 \noindent
 \begin{minipage}{0.31\textwidth}\stat{\$\xFinalMAE}{mean abs. error, forward-in-time CV}{teal}\end{minipage}\hfill
 \begin{minipage}{0.31\textwidth}\stat{\xFinalMed\%}{median abs.\ \% error}{mid}\end{minipage}\hfill
@@ -137,7 +138,6 @@ matching the real horizon (October $\rightarrow$ November--December).
 \end{tikzpicture}
 \caption{Expanding-window validation. The final fit uses all labelled data to predict the unseen Nov--Dec loads.}
 \end{figure}
-\newpage
 
 \subsection{Leakage controls and metrics}
 \begin{itemize}
@@ -170,7 +170,7 @@ Tree models cannot extrapolate beyond the training range, but the prediction per
 \includegraphics[width=0.86\textwidth]{figures/market_index.pdf}
 \caption{Daily mean \texttt{market\_index}. It has a strong weekly cycle on top of a slow trend; the prediction period (shaded) is calmer than the spring--summer peak.}
 \end{figure}
-
+\newpage
 % ================= 4 =================
 \section{Data-quality issues and how they were handled}
 \begin{table}[H]
