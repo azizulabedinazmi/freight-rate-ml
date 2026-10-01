@@ -1,10 +1,10 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{charter}
 \usepackage[scaled=0.92]{helvet}
 \usepackage{amsmath}
-\usepackage[margin=1.5cm,top=1.5cm,bottom=1.5cm]{geometry}
+\usepackage[margin=1cm,top=1.5cm,bottom=1.5cm]{geometry}
 \usepackage{microtype}
 \usepackage{xcolor}
 \usepackage{graphicx}
@@ -62,7 +62,7 @@
 
 \newcommand{\stat}[3]{%
   \begin{tcolorbox}[enhanced,colback=white,colframe=greyline,boxrule=0.6pt,arc=3pt,width=\linewidth,
-    left=2pt,right=2pt,top=5pt,bottom=4pt,halign=center]
+    left=2pt,right=2pt,top=1pt,bottom=4pt,halign=center]
     {\sans\fontsize{20}{22}\selectfont\bfseries\color{#3}#1}\\[1pt]
     {\sans\scriptsize\color{ink}#2}
   \end{tcolorbox}}
@@ -82,14 +82,13 @@
   \node[anchor=west,text=white!80,align=left] at (0.8,0.7)
     {\sans\small Machine Learning Engineer assessment \quad$\cdot$\quad \reportauthor \quad$\cdot$\quad \texttt{\repourl}};
 \end{tikzpicture}
-
-\vspace{10pt}
+\par\vspace{-\parskip}
 \noindent
 \begin{minipage}{0.31\textwidth}\stat{\$\xFinalMAE}{mean abs. error, forward-in-time CV}{teal}\end{minipage}\hfill
 \begin{minipage}{0.31\textwidth}\stat{\xFinalMed\%}{median abs.\ \% error}{mid}\end{minipage}\hfill
 \begin{minipage}{0.31\textwidth}\stat{$-\xGainMAE$\%}{MAE vs.\ linear baseline}{coral}\end{minipage}
 
-\vspace{4pt}
+
 \begin{callout}[title=Summary]
 The task is to price \xNVal{} loads from November--December 2025 using \xNTrain{} labelled loads from January--October.
 Because the targets lie in the \emph{future} of the training data, I validated with expanding-window,
@@ -139,6 +138,7 @@ matching the real horizon (October $\rightarrow$ November--December).
 \end{tikzpicture}
 \caption{Expanding-window validation. The final fit uses all labelled data to predict the unseen Nov--Dec loads.}
 \end{figure}
+\newpage
 
 \subsection{Leakage controls and metrics}
 \begin{itemize}
@@ -339,3 +339,4 @@ python report/make_assets.py      # figures and numbers for this report
 \end{lstlisting}
 \end{codebox}
 
+\end{document}
