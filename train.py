@@ -79,7 +79,7 @@ def main():
         for name, p in preds.items():
             rows.append({"fold": f"{s}..{e}", "model": name, **metrics(p, t)})
     cv = pd.DataFrame(rows)
-    Path("reports").mkdir(exist_ok=True)
+    Path("report").mkdir(exist_ok=True)
     cv.to_csv("report/cv_metrics.csv", index=False)
     print(cv.groupby("model")[["MAE", "MAPE_%", "MedAPE_%", "RMSE"]].mean().round(2))
 

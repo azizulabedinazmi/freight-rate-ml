@@ -2,6 +2,7 @@
     python train.py && python report/make_assets.py
 """
 import sys
+import shutil
 from pathlib import Path
 
 import matplotlib
@@ -17,6 +18,12 @@ import train as T
 OUT = Path("report")
 FIG = OUT / "figures"
 FIG.mkdir(parents=True, exist_ok=True)
+chart = Path("scorer_results/candidate_december.png")
+if not chart.is_file():
+    raise FileNotFoundError(
+        "Missing scorer_results/candidate_december.png; run score.py before make_assets.py"
+    )
+shutil.copy2(chart, FIG / chart.name)
 
 TEAL, MID, LIGHT, CORAL, GREY = "#064A56", "#2A9D8F", "#CFE3E6", "#E4572E", "#8A9BA0"
 plt.rcParams.update({
@@ -116,8 +123,6 @@ fig.savefig(FIG / "cv_mae.pdf"); plt.close(fig)
 # --- fig: eda log-log ---
 smp = train.sample(7000, random_state=0)
 fig, ax = plt.subplots(figsize=(6.4, 3.0))
-for eq, g in smp.groupby("equipment"):
-    pass
 for eq in ["Flatbed", "Reefer", "Dry Van"]:
     g = smp[smp.equipment == eq]
     ax.scatter(g.distance, g.posted_rate, s=3, alpha=.35, color=EQ_COL[eq], label=eq, rasterized=True, linewidths=0)

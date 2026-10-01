@@ -3,6 +3,7 @@
 Compile (needs a TeX distribution with pdflatex, or upload this folder to Overleaf):
 
     python train.py                  # from the repo root, creates report/cv_metrics.csv
+    python score.py --predictions validation_predictions.csv --december-predictions data/december_chart_inputs.csv
     python report/make_assets.py     # regenerates figures/ and the numbers used in the text
     cd report && pdflatex report.tex && pdflatex report.tex
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  1 OCT 2026 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.11)  1 OCT 2026 21:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -862,21 +862,21 @@ LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <13.99994> not available
 (Font)              size <14.4> substituted on input line 89.
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.19998pt on input line 92.
+(Font)              scaled to size 9.19998pt on input line 91.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 102.
+(Font)              scaled to size 13.24796pt on input line 101.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 102.
-LaTeX Font Info:    Trying to load font information for TS1+bch on input line 108.
+(Font)              scaled to size 13.24796pt on input line 101.
+LaTeX Font Info:    Trying to load font information for TS1+bch on input line 107.
 (c:/texlive/2025/texmf-dist/tex/latex/psnfss/ts1bch.fd
 File: ts1bch.fd 2004/10/18 font definitions for TS1/bch.
 )
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 116.
+(Font)              scaled to size 11.03998pt on input line 115.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.43999pt on input line 133.
+(Font)              scaled to size 6.43999pt on input line 132.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 8.27998pt on input line 139.
+(Font)              scaled to size 8.27998pt on input line 138.
 
 
 [1{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
@@ -885,12 +885,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 <figures/eda_loglog.pdf, id=129, 408.76588pt x 211.22789pt>
 File: figures/eda_loglog.pdf Graphic file (type pdf)
 <use figures/eda_loglog.pdf>
-Package pdftex.def Info: figures/eda_loglog.pdf  used on input line 160.
+Package pdftex.def Info: figures/eda_loglog.pdf  used on input line 159.
 (pdftex.def)             Requested size: 432.48355pt x 223.49117pt.
 <figures/market_index.pdf, id=130, 410.83907pt x 153.0907pt>
 File: figures/market_index.pdf Graphic file (type pdf)
 <use figures/market_index.pdf>
-Package pdftex.def Info: figures/market_index.pdf  used on input line 171.
+Package pdftex.def Info: figures/market_index.pdf  used on input line 170.
 (pdftex.def)             Requested size: 464.91838pt x 173.25208pt.
 
 
@@ -898,10 +898,10 @@ Package pdftex.def Info: figures/market_index.pdf  used on input line 171.
 <figures/label_spikes.pdf, id=216, 408.76588pt x 187.965pt>
 File: figures/label_spikes.pdf Graphic file (type pdf)
 <use figures/label_spikes.pdf>
-Package pdftex.def Info: figures/label_spikes.pdf  used on input line 196.
+Package pdftex.def Info: figures/label_spikes.pdf  used on input line 195.
 (pdftex.def)             Requested size: 464.91838pt x 213.79185pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 4.59999pt on input line 210.
+(Font)              scaled to size 4.59999pt on input line 209.
 
 
 [3 <./figures/label_spikes.pdf>] (c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -909,38 +909,38 @@ File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 240.
+(Font)              using `T1/cmtt/bx/n' instead on input line 239.
 
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 240.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 239.
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 244.
+(Font)              using `T1/cmtt/bx/n' instead on input line 243.
 
 
 LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
-(Font)              using `T1/cmtt/bx/n' instead on input line 244.
+(Font)              using `T1/cmtt/bx/n' instead on input line 243.
 
 (./CVMeanRows.tex)
 <figures/cv_mae.pdf, id=267, 434.96783pt x 161.87552pt>
 File: figures/cv_mae.pdf Graphic file (type pdf)
 <use figures/cv_mae.pdf>
-Package pdftex.def Info: figures/cv_mae.pdf  used on input line 266.
+Package pdftex.def Info: figures/cv_mae.pdf  used on input line 265.
 (pdftex.def)             Requested size: 400.04872pt x 148.88774pt.
  (./CVFoldRows.tex)
 <figures/pred_vs_actual.pdf, id=268, 240.73814pt x 233.48705pt>
 File: figures/pred_vs_actual.pdf Graphic file (type pdf)
 <use figures/pred_vs_actual.pdf>
-Package pdftex.def Info: figures/pred_vs_actual.pdf  used on input line 286.
+Package pdftex.def Info: figures/pred_vs_actual.pdf  used on input line 285.
 (pdftex.def)             Requested size: 259.48683pt x 251.6884pt.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 287.
+(Font)              scaled to size 7.35999pt on input line 286.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.35999pt on input line 287.
+(Font)              scaled to size 7.35999pt on input line 286.
 <figures/error_by_distance.pdf, id=269, 239.06pt x 252.53883pt>
 File: figures/error_by_distance.pdf Graphic file (type pdf)
 <use figures/error_by_distance.pdf>
-Package pdftex.def Info: figures/error_by_distance.pdf  used on input line 290.
+Package pdftex.def Info: figures/error_by_distance.pdf  used on input line 289.
 (pdftex.def)             Requested size: 259.48683pt x 274.14821pt.
 
 
@@ -948,12 +948,12 @@ Package pdftex.def Info: figures/error_by_distance.pdf  used on input line 290.
 <figures/importance.pdf, id=335, 441.21524pt x 170.98831pt>
 File: figures/importance.pdf Graphic file (type pdf)
 <use figures/importance.pdf>
-Package pdftex.def Info: figures/importance.pdf  used on input line 298.
+Package pdftex.def Info: figures/importance.pdf  used on input line 297.
 (pdftex.def)             Requested size: 421.66919pt x 163.42157pt.
 <figures/candidate_december.png, id=336, 771.683pt x 251.339pt>
 File: figures/candidate_december.png Graphic file (type png)
 <use figures/candidate_december.png>
-Package pdftex.def Info: figures/candidate_december.png  used on input line 310.
+Package pdftex.def Info: figures/candidate_december.png  used on input line 309.
 (pdftex.def)             Requested size: 454.10402pt x 147.9052pt.
 
 
@@ -981,7 +981,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  86i,15n,96p,1040b,1648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on report.pdf (6 pages, 477838 bytes).
+Output written on report.pdf (6 pages, 482735 bytes).
 PDF statistics:
  560 PDF objects out of 1000 (max. 8388607)
  241 compressed objects within 3 object streams

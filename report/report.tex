@@ -86,8 +86,7 @@
 \noindent
 \begin{minipage}{0.31\textwidth}\stat{\$\xFinalMAE}{mean abs. error, forward-in-time CV}{teal}\end{minipage}\hfill
 \begin{minipage}{0.31\textwidth}\stat{\xFinalMed\%}{median abs.\ \% error}{mid}\end{minipage}\hfill
-\begin{minipage}{0.31\textwidth}\stat{$-\xGainMAE$\%}{MAE vs.\ linear baseline}{coral}\end{minipage}
-
+\begin{minipage}{0.31\textwidth}\stat{$-\xGainMAE$\%}{MAE vs.\ linear baseline}{coral}\end{minipage}\par\vspace{-\parskip}
 
 \begin{callout}[title=Summary]
 The task is to price \xNVal{} loads from November--December 2025 using \xNTrain{} labelled loads from January--October.
@@ -323,7 +322,7 @@ the training data contains no December from which to learn one.
 \begin{itemize}
   \item \textbf{Ten months of history} cannot reveal annual seasonality. With several years, month and holiday features would become learnable.
   \item \textbf{Level drift is carried forward, not forecast.} If November--December rates move away from the October level, the offset will not anticipate it.
-  \item \textbf{Small tuning set.} The 14-day window and the offset benefit were selected on four folds from one year; treat the gain as moderate evidence.
+  \item \textbf{Small tuning set.} The 14-day window and the offset benefit were selected on three folds from one year; treat the gain as moderate evidence.
   \item \textbf{Corrupted labels} in any hidden evaluation set will inflate RMSE for every model, including this one.
   \item \textbf{Next steps:} quantile models for prediction intervals, a lane-level target encoding that gracefully handles unseen cities, and an explicit detector for corrupted labels.
 \end{itemize}
