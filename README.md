@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/banner.svg" alt="freight-rate-ml banner" width="100%">
+</p>
+
 # Freight Rate Prediction Challenge — Solution
 
 Predicts `posted_rate` for 12,000 held-out loads (Nov–Dec 2025) from 48,000 labelled loads (Jan–Oct 2025).
